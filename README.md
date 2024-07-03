@@ -98,7 +98,7 @@
 - I'm a TypeScript geek :)
 - You can ask me anything! I'm happy to help.
 - I love nu metal, rock and grunge music.
-- I'm a huge fan of Kurt Cobain and Chester Bennington.
+- I'm a huge fan of Kurt Cobain, Chester Bennington and Corey Taylor.
 
 
 ### 📫 How to reach me:
