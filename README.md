@@ -8,7 +8,7 @@
 <table>
   <tr>
     <td valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=datzu712&theme=radical&show_icons=true&hide_border=false&count_private=true&include_all_commits=true"></img>
+        <img src="https://github-readme-stats.vercel.app/api?username=datzu712&theme=radical&show_icons=true&hide_border=false&count_private=true&include_all_commits=true&cache_seconds=1800"></img>
     </td>
     <td valign="top">
         <img src="https://github-readme-streak-stats.herokuapp.com/?user=datzu712&theme=radical&hide_border=false"></img>
