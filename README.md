@@ -108,10 +108,12 @@
 - ig: [@juaness.teban](https://www.instagram.com/juaness.teban/)
 
 <div align="center">
-    <h3>Currently listening:</h3>
+    <h2>Currently Listening on Spotify</h2>
     <table>
         <tr>
-            <td><img width="250" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31b2ceilkinst7dyrt7lyaha65we&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="spotify" title="spotify"/></td>
+            <td><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31b2ceilkinst7dyrt7lyaha65we&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="spotify" title="spotify"/></td>
         </tr>
     </table>
+    <br>
+    <img src="https://komarev.com/ghpvc/?username=datzu712" alt="Profile Views" title="Profile Views"/>
 </div>
