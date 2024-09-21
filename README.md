@@ -75,9 +75,10 @@
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183345125-9a7cd2e6-6ad6-436f-8490-44c903bef84c.png" alt="Nginx" title="Nginx"/></td>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/201476630-f47cfff6-fdee-4ee1-9092-1793b71b1ca3.png" alt="Mocha" title="Mocha"/></td>
 			<td><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/ab742751-b55b-43d7-8f49-9a67e293f67c" alt="Puppeteer" title="Puppeteer"/></td>
-            <td><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/1200px-ESLint_logo.svg.png" alt="ESLint" title="ESLint"/></td>
-            <td><img width="50" src="https://brandslogos.com/wp-content/uploads/images/large/prettier-logo.png" alt="Prettier" title="Prettier"/></td>
-            <td><img width="50" src=https://seeklogo.com/images/J/jwt-logo-65D86B4640-seeklogo.com.png" alt="JWT" title="JWT"/></td>
+            		<td><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/1200px-ESLint_logo.svg.png" alt="ESLint" title="ESLint"/></td>
+            		<td><img width="50" src="https://brandslogos.com/wp-content/uploads/images/large/prettier-logo.png" alt="Prettier" title="Prettier"/></td>
+            		<td><img width="50" src=https://seeklogo.com/images/J/jwt-logo-65D86B4640-seeklogo.com.png" alt="JWT" title="JWT"/></td>
+			<td><img width="50" src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/webpack-icon.png" alt="Webpack" title="Webpack"/></td>
 		</tr>
 	</table>
 </div>
