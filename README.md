@@ -19,6 +19,7 @@
 ## 💻 Experience / Tech Stack
 
 ### Languages (Programming, Markup, Stylesheet, etc.)
+
 <table>
 	<tr>
 		<td><img width="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML"/></td>
@@ -28,13 +29,13 @@
 		<td><img width="50" src="https://user-images.githubusercontent.com/25181517/117201156-9a724800-adec-11eb-9a9d-3cd0f67da4bc.png" alt="Java" title="Java"/></td>
 		<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183423507-c056a6f9-1ba8-4312-a350-19bcbc5a8697.png" alt="Python" title="Python"/></td>
 		<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183570228-6a040b9f-3ddf-47a2-a201-743121dac664.png" alt="php" title="php"/></td>
-		<td><img width="50" src="https://static-00.iconduck.com/assets.00/c-sharp-c-icon-1822x2048-wuf3ijab.png" alt="csharp" title="csharp"/></td>
 		<td><img width="50" src="https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png" alt="bash" title="bash"/></td>
 	</tr>
 </table>
 
 ### Frameworks, Platforms, Libraries, etc...
-<div>
+
+<div >
 	<table>
 		<tr>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/192107854-765620d7-f909-4953-a6da-36e1ef69eea6.png" alt="HTTP" title="HTTP"/></td>
@@ -45,7 +46,7 @@
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/192109061-e138ca71-337c-4019-8d42-4792fdaa7128.png" alt="Postman" title="Postman"/></td>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183912952-83784e94-629d-4c34-a961-ae2ae795b662.png" alt="Jira" title="Jira"/></td>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183914128-3fc88b4a-4ac1-40e6-9443-9a30182379b7.png" alt="Jupyter Notebook" title="Jupyter Notebook"/></td>
-			<td><img width="50" src="https://newrelic.com/themes/custom/erno/assets/mediakit/new_relic_logo_vertical.png" alt="New Relic" title="New Relic"/></td>
+			<td><img width="50" src=https://libreriasjs.com/wp-content/uploads/2022/08/logo_vite-1.png" alt="Vite" title="Vite"/></td>
 		</tr>
 		<tr>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183898054-b3d693d4-dafb-4808-a509-bab54cf5de34.png" alt="Bootstrap" title="Bootstrap"/></td>
@@ -56,7 +57,6 @@
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/121401671-49102800-c959-11eb-9f6f-74d49a5e1774.png" alt="npm" title="npm"/></td>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183049794-a3dfaddd-22ee-4ffe-b0b4-549ccd4879f9.png" alt="yarn" title="yarn"/></td>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png" alt="Node.js" title="Node.js"/></td>
-			<td><img width="50" src="https://www.svgrepo.com/show/354332/sentry-icon.svg" alt="Sentry" title="Sentry"/></td>
 		</tr>
 		<tr>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6.png" alt="Express" title="Express"/></td>
@@ -67,7 +67,6 @@
 			<td><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/e56b5093-2f58-40cc-b194-5bdde41077b5" alt="Svelte" title="Svelte"/></td>
 			<td><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/7e9599e9-0570-4bb6-b17f-676ed589912f" alt="Bun.js" title="Bun.js"/></td>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183423775-2276e25d-d43d-4e58-890b-edbc88e915f7.png" alt="Flask" title="Flask"/></td>
-			<td><img width="50" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/apache_original_wordmark_logo_icon_146643.png" alt="Apache" title="Apache"/></td>
 		</tr>
 		<tr>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/117207330-263ba280-adf4-11eb-9b97-0ac5b40bc3be.png" alt="Docker" title="Docker"/></td>
@@ -75,10 +74,9 @@
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/183345125-9a7cd2e6-6ad6-436f-8490-44c903bef84c.png" alt="Nginx" title="Nginx"/></td>
 			<td><img width="50" src="https://user-images.githubusercontent.com/25181517/201476630-f47cfff6-fdee-4ee1-9092-1793b71b1ca3.png" alt="Mocha" title="Mocha"/></td>
 			<td><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/ab742751-b55b-43d7-8f49-9a67e293f67c" alt="Puppeteer" title="Puppeteer"/></td>
-            		<td><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/1200px-ESLint_logo.svg.png" alt="ESLint" title="ESLint"/></td>
-            		<td><img width="50" src="https://brandslogos.com/wp-content/uploads/images/large/prettier-logo.png" alt="Prettier" title="Prettier"/></td>
-            		<td><img width="50" src=https://seeklogo.com/images/J/jwt-logo-65D86B4640-seeklogo.com.png" alt="JWT" title="JWT"/></td>
-			<td><img width="50" src=https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/webpack-icon.png" alt="Webpack" title="Webpack"/></td>
+            <td><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/1200px-ESLint_logo.svg.png" alt="ESLint" title="ESLint"/></td>
+            <td><img width="50" src="https://brandslogos.com/wp-content/uploads/images/large/prettier-logo.png" alt="Prettier" title="Prettier"/></td>
+            <td><img width="50" src=https://seeklogo.com/images/J/jwt-logo-65D86B4640-seeklogo.com.png" alt="JWT" title="JWT"/></td>
 		</tr>
 	</table>
 </div>
@@ -98,6 +96,7 @@
 </div>
 
 ### Personal Stuff:
+
 - Currently working with Meddyg to migrate a radiation dose control project using dosimeters called NGDose..
 - I'm a passionate developer who loves backend development.
 - I'm a TypeScript geek :)
@@ -106,8 +105,8 @@
 - I'm a huge fan of Kurt Cobain, Chester Bennington and Corey Taylor.
 - Currently studying software engineer at Fidélitas University.
 
-
 ### 📫 How to reach me:
+
 - Email: juan@meddyg.com
 - Twitter: [@datzu_co](https://twitter.com/datzu_co)
 - ig: [@juaness.teban](https://www.instagram.com/juaness.teban/)
