@@ -107,6 +107,8 @@
 <!--START_SECTION:waka-->
 
 ```txt
+Total Time: 17 hrs 38 mins
+
 Other        44 hrs 42 mins  ██████████████████░░░░░░░   71.70 %
 Python       7 hrs 40 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.31 %
 TypeScript   4 hrs 10 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.68 %
