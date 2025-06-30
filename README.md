@@ -19,6 +19,7 @@
 ## 💻 Experience / Tech Stack
 
 ### Languages (Programming, Markup, Stylesheet, etc.)
+
 <table>
 	<tr>
 		<td><img width="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML"/></td>
@@ -34,6 +35,7 @@
 </table>
 
 ### Frameworks, Platforms, Libraries, etc...
+
 <div>
 	<table>
 		<tr>
@@ -100,8 +102,13 @@
 	</table>
 </div>
 
+## 📊 Weekly Coding Stats
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 ### Personal Stuff:
-- Currently working with Meddyg to migrate a radiation dose control project using dosimeters called NGDose..
+
 - I'm a passionate developer who loves backend development.
 - I'm a TypeScript geek :)
 - You can ask me anything! I'm happy to help.
@@ -109,8 +116,8 @@
 - I'm a huge fan of Kurt Cobain, Chester Bennington and Corey Taylor.
 - Currently studying software engineer at Fidélitas University.
 
-
 ### 📫 How to reach me:
+
 - Email: juan@meddyg.com
 - Twitter: [@datzu_co](https://twitter.com/datzu_co)
 - ig: [@juaness.teban](https://www.instagram.com/juaness.teban/)
