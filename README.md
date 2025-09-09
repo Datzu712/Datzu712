@@ -107,13 +107,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 8 hrs 46 mins
+Total Time: 8 hrs 17 mins
 
-Python            2 hrs 1 min     █████▓░░░░░░░░░░░░░░░░░░░   22.56 %
-TypeScript        1 hr 58 mins    █████▓░░░░░░░░░░░░░░░░░░░   22.01 %
-YAML              1 hr 42 mins    ████▓░░░░░░░░░░░░░░░░░░░░   19.11 %
-Rust              1 hr 36 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.99 %
-Java Properties   34 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.38 %
+TypeScript        2 hrs 8 mins    ██████▒░░░░░░░░░░░░░░░░░░   25.31 %
+Python            2 hrs 1 min     ██████░░░░░░░░░░░░░░░░░░░   23.88 %
+Rust              1 hr 32 mins    ████▓░░░░░░░░░░░░░░░░░░░░   18.26 %
+YAML              1 hr 4 mins     ███░░░░░░░░░░░░░░░░░░░░░░   12.58 %
+Java Properties   34 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.74 %
 ```
 
 <!--END_SECTION:waka-->
