@@ -118,15 +118,6 @@ Text         1 hr 25 mins    █▒░░░░░░░░░░░░░░░
 
 <!--END_SECTION:waka-->
 
-### Personal Stuff:
-
-- I'm a passionate developer who loves backend development.
-- I'm a TypeScript geek :)
-- You can ask me anything! I'm happy to help.
-- I love nu metal, rock and grunge music.
-- I'm a huge fan of Kurt Cobain, Chester Bennington and Corey Taylor.
-- Currently studying software engineer at Fidélitas University.
-
 ### 📫 How to reach me:
 
 - Email: juan@meddyg.com
