@@ -107,13 +107,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 21 hrs 19 mins
+Total Time: 24 hrs 19 mins
 
-TypeScript   10 hrs 4 mins         ███████████░░░░░░░░░░░░░░   43.96 %
-SQL          3 hrs 34 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.61 %
-Prisma       1 hr 43 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.50 %
-Other        1 hr 36 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   07.02 %
-PHP          1 hr 2 mins           █░░░░░░░░░░░░░░░░░░░░░░░░   04.54 %
+TypeScript   12 hrs 34 mins        ████████████▒░░░░░░░░░░░░   49.50 %
+SQL          3 hrs 55 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.47 %
+Prisma       1 hr 45 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.90 %
+Other        1 hr 3 mins           █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 %
+PHP          1 hr 2 mins           █░░░░░░░░░░░░░░░░░░░░░░░░   04.10 %
 ```
 
 <!--END_SECTION:waka-->
