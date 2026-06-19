@@ -2,7 +2,7 @@
 
 <h2 align="center"> I'm Juan Esteban Sánchez!</h2>
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=datzu712&row=2&column=3&theme=darkhub">
+  <img src="https:/github-profile-trophy-hqem.vercel.app/?username=datzu712&row=2&column=3&theme=darkhub">
 </p>
 
 <table>
