@@ -133,7 +133,7 @@ JSON                               2 hrs 14 mins         █▒░░░░░�
     <h2>Currently Listening on Spotify</h2>
     <table>
         <tr>
-            <td><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31b2ceilkinst7dyrt7lyaha65we&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="spotify" title="spotify"/></td>
+            <td><img src="https://spotify-github-profile.kittinanx.com/api/view?uid=31b2ceilkinst7dyrt7lyaha65we&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true&profanity=false&hide_remaster=false&bar_color=53b14f&bar_color_cover=false" alt="spotify" title="spotify"/></td>
         </tr>
     </table>
     <br>
