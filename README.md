@@ -112,13 +112,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 30 hrs 3 mins
+Total Time: 25 hrs 37 mins
 
-Markdown     13 hrs 36 mins        ██████████▓░░░░░░░░░░░░░░   42.40 %
-TypeScript   4 hrs 46 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.90 %
-YAML         2 hrs 3 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.42 %
-Other        2 hrs 1 min           █▓░░░░░░░░░░░░░░░░░░░░░░░   06.32 %
-Docker       1 hr 51 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.79 %
+Markdown      14 hrs 12 mins        █████████████░░░░░░░░░░░░   51.56 %
+YAML          2 hrs 5 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.61 %
+Other         1 hr 56 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   07.05 %
+Python        1 hr 33 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.65 %
+PlantUML      1 hr 32 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.56 %
 ```
 
 <!--END_SECTION:waka-->
