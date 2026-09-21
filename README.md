@@ -112,13 +112,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 25 hrs 15 mins
+Total Time: 19 hrs 30 mins
 
-Markdown      14 hrs 58 mins        ██████████████░░░░░░░░░░░   56.54 %
-YAML          2 hrs 7 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 %
-PlantUML      1 hr 36 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.05 %
-Python        1 hr 33 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.87 %
-HTML          1 hr 23 mins          █▒░░░░░░░░░░░░░░░░░░░░░░░   05.28 %
+Markdown      11 hrs 36 mins        ██████████████▒░░░░░░░░░░   57.43 %
+Rust          1 hr 37 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.01 %
+YAML          1 hr 14 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.13 %
+HTML          1 hr 9 mins           █▒░░░░░░░░░░░░░░░░░░░░░░░   05.76 %
+PlantUML      1 hr 4 mins           █▒░░░░░░░░░░░░░░░░░░░░░░░   05.31 %
 ```
 
 <!--END_SECTION:waka-->
