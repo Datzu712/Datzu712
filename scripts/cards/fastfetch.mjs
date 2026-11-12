@@ -2,13 +2,19 @@
 // `key: ........ value` rows in four blocks: about, Reads, GitHub, Contact.
 import { about, contact, profile, reads } from "../content.mjs";
 import { archLogo } from "../lib/arch-logo.mjs";
-import { C, COLS, card, prompt, rule, run, userAtHost, width } from "../lib/term.mjs";
+import { EQUALIZER_COLS, barGraph, equalizer, equalizerCss, swatch } from "../lib/glyphs.mjs";
+import { shimmer } from "../lib/shimmer.mjs";
+import { C, COLS, card, rule, run, userAtHost, width } from "../lib/term.mjs";
 import { local, monthDay, plural, span } from "../lib/time.mjs";
 
 const LEFT = 42; // first column of the panel: the logo is 38 wide
 const RIGHT = COLS; // its right edge
 const CELL_GAP = 3; // " | " between two cells on one line
 const TURN_S = 5; // how long each value of a rotating row shows, in seconds
+const SWATCH_COLS = 3; // how wide one colour of the palette is
+// The colours fastfetch ends with: here the card's own, darkest to lightest
+// and then the ones that mean something, not a terminal's sixteen.
+const PALETTE = [C.border, C.dots, C.muted, C.body, C.text, C.accent, C.glint, C.green];
 
 /**
  * `key: ......`, the dots stopping a space short of where the value starts.
@@ -68,7 +74,7 @@ function panel(out, startRow) {
         get row() {
             return row;
         },
-        /** the CSS its rotating rows need */
+        /** the CSS its moving rows need */
         get css() {
             return css;
         },
@@ -98,14 +104,35 @@ function panel(out, startRow) {
             row += 1;
         },
         /**
-         * `key: ........` and the values taking turns in the same place.
+         * `key: ........ ♪ track` and an equalizer: the tracks take turns in
+         * the same place, and the equalizer never stops.
          * @param {string} key
-         * @param {string[]} values
+         * @param {string[]} tracks
          */
-        rotating(key, values) {
-            const turns = takingTurns(values.map((value) => run(RIGHT, row, value, C.text, { end: true })));
-            out.push(keyAndDots(LEFT, RIGHT, row, key, Math.max(...values.map(width))), turns.body);
-            css += turns.css;
+        playing(key, tracks) {
+            const titles = tracks.map((track) => `♪ ${track}`);
+            const bars = RIGHT - EQUALIZER_COLS; // the equalizer's first column
+            const turns = takingTurns(titles.map((title) => run(bars - 1, row, title, C.text, { end: true })));
+            const taken = Math.max(...titles.map(width)) + 1 + EQUALIZER_COLS;
+            out.push(keyAndDots(LEFT, RIGHT, row, key, taken), turns.body, equalizer(bars, row, C.text));
+            css += turns.css + equalizerCss;
+            row += 1;
+        },
+        /**
+         * A line of bars, one per value, from edge to edge.
+         * @param {number[]} values
+         */
+        graph(values) {
+            out.push(barGraph(LEFT, row, RIGHT - LEFT, values, C.green, C.dots));
+            row += 1;
+        },
+        /**
+         * A blank line, then blocks of colour side by side.
+         * @param {string[]} colours
+         */
+        palette(colours) {
+            row += 1;
+            colours.forEach((colour, i) => out.push(swatch(LEFT + i * SWATCH_COLS, row, SWATCH_COLS, colour)));
             row += 1;
         },
         /**
@@ -136,8 +163,7 @@ export function fastfetch(stats, now) {
     const today = local(now);
     const out = [];
 
-    out.push(prompt(profile, 0, "fastfetch", { comment: profile.fastfetchComment }));
-    const top = 2;
+    const top = 2; // under the prompt and a blank line
     const info = panel(out, top);
 
     info.header();
@@ -149,12 +175,8 @@ export function fastfetch(stats, now) {
         Uptime: `${plural(age.y, "year")}, ${plural(age.m, "month")}, ${plural(age.d, "day")}`,
     };
     for (const [key, value] of about) {
-        // a list takes turns: the bands, as they do on the site
-        if (Array.isArray(value))
-            info.rotating(
-                key,
-                value.map((band) => `♪ ${band}`),
-            );
+        // a list is what is playing: the bands take turns, as they do on the site
+        if (Array.isArray(value)) info.playing(key, value);
         else info.field(key, value ?? computed[key]);
     }
 
@@ -168,23 +190,31 @@ export function fastfetch(stats, now) {
         ["Followers", String(stats.followers)],
     ]);
     info.field("Contributions", `${stats.contributions.toLocaleString("en-US")} in the last year`);
+    info.graph(stats.weeks); // that year week by week, this week last
     if (stats.lastPush) {
         info.field("Last push", `${stats.lastPush.repo}, ${monthDay(local(new Date(stats.lastPush.at)))}`);
     }
 
     info.section("Contact");
     for (const [key, value] of contact) info.field(key, value, key === "Web" ? C.accent : C.text);
+    info.palette(PALETTE);
 
     const rows = info.row;
 
-    // the logo, centred against the panel
+    // the logo, centred against the panel, shimmering as it does on the site
     const logoTop = top + Math.max(0, Math.round((rows - top - archLogo.length) / 2));
-    archLogo.forEach((line, i) => {
-        const drawn = line.trimStart();
-        out.push(run(line.length - drawn.length, logoTop + i, drawn, C.accent));
-    });
+    const logo = shimmer(archLogo, logoTop, C.accent, C.glint);
+    out.push(logo.body);
 
     const written = [...about, ...reads, ...contact].filter(([, value]) => typeof value === "string");
     const label = `fastfetch for ${profile.name}. ` + written.map(([key, value]) => `${key}: ${value}`).join(". ");
-    return card({ rows, body: out.join("\n"), label, css: info.css });
+    return card({
+        who: profile,
+        command: "fastfetch",
+        comment: profile.fastfetchComment,
+        rows,
+        body: out.join("\n"),
+        label,
+        css: info.css + logo.css,
+    });
 }

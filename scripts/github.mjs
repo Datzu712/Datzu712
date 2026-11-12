@@ -12,6 +12,8 @@
  * @property { number } stars across those repositories
  * @property { number } followers
  * @property { number } contributions in the last year, as the profile's calendar counts them
+ * @property { number[] } weeks that same year week by week, the oldest first: the
+ *   contributions in each. The first and the last are whatever part of a week the year cuts.
  * @property { LastPush | null } lastPush null if nothing public was ever pushed
  */
 
@@ -49,7 +51,12 @@ const QUERY = `query ($login: String!) {
       totalCount
       nodes { nameWithOwner stargazerCount pushedAt }
     }
-    contributionsCollection { contributionCalendar { totalContributions } }
+    contributionsCollection {
+      contributionCalendar {
+        totalContributions
+        weeks { contributionDays { contributionCount } }
+      }
+    }
   }
 }`;
 
@@ -93,12 +100,14 @@ export async function fetchStats(login) {
     }
     const { user } = data;
     const ownRepos = user.repositories.nodes;
+    const calendar = user.contributionsCollection.contributionCalendar;
 
     return {
         repos: user.repositories.totalCount,
         stars: ownRepos.reduce((sum, r) => sum + r.stargazerCount, 0),
         followers: user.followers.totalCount,
-        contributions: user.contributionsCollection.contributionCalendar.totalContributions,
+        contributions: calendar.totalContributions,
+        weeks: calendar.weeks.map((week) => week.contributionDays.reduce((sum, day) => sum + day.contributionCount, 0)),
         lastPush: await lastPush(login, ownRepos),
     };
 }
