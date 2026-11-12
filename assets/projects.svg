@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 997 298" width="997" height="298" role="img" aria-label="Projects. ngdose (production): strangling a 13-year-old CakePHP app, live. radiation-group (production): a certificate portal, and an AI that can't write. hix (public draft, open source): a FHIR R5 spec for exchanging clinical documents. hix-hie (first release): the services that run HIX. nodecord (released, open source): enterprise DI for Discord bots. built it anyway. fidechat (wip, open source): the same chat app, built three times. mind-body (paused, open source): a gym app whose AI coach reads your routines" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace" font-size="16">
+<style>
+  text { white-space: pre; }
+  .blink { animation: blink 1.1s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+  .band { opacity: 0; animation: band 45s linear infinite; }
+  @keyframes band {
+    0% { opacity: 0; } 1% { opacity: 1; }
+    10.11% { opacity: 1; } 11.11% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .blink, .band { animation: none; }
+    .band:first-of-type { opacity: 1; }
+  }
+</style>
+<rect x="0.75" y="0.75" width="995.5" height="296.5" rx="10" fill="#0a0a0a" stroke="#222222" stroke-width="1.5"/>
+<text x="28" y="43" fill="#f5d800" textLength="57.6" lengthAdjust="spacing">juanes</text>
+<text x="85.6" y="43" fill="#e8e8e8" textLength="9.6" lengthAdjust="spacing">@</text>
+<text x="95.2" y="43" fill="#f5d800" textLength="57.6" lengthAdjust="spacing">meddyg</text>
+<text x="162.4" y="43" fill="#8a8a8a" textLength="28.8" lengthAdjust="spacing">~ $</text>
+<text x="200.8" y="43" fill="#e8e8e8" textLength="144" lengthAdjust="spacing">ls -l projects/</text>
+<text x="28" y="87" fill="#8a8a8a" textLength="115.2" lengthAdjust="spacing">[production]</text>
+<text x="191.2" y="87" fill="#e8e8e8" textLength="67.2" lengthAdjust="spacing">ngdose/</text>
+<text x="364" y="87" fill="#b4b4b4" textLength="403.2" lengthAdjust="spacing">strangling a 13-year-old CakePHP app, live</text>
+<text x="28" y="109" fill="#8a8a8a" textLength="115.2" lengthAdjust="spacing">[production]</text>
+<text x="191.2" y="109" fill="#e8e8e8" textLength="153.6" lengthAdjust="spacing">radiation-group/</text>
+<text x="364" y="109" fill="#b4b4b4" textLength="460.8" lengthAdjust="spacing">a certificate portal, and an AI that can't write</text>
+<text x="28" y="131" fill="#8a8a8a" textLength="134.4" lengthAdjust="spacing">[public draft]</text>
+<text x="191.2" y="131" fill="#e8e8e8" textLength="38.4" lengthAdjust="spacing">hix/</text>
+<text x="364" y="131" fill="#b4b4b4" textLength="460.8" lengthAdjust="spacing">a FHIR R5 spec for exchanging clinical documents</text>
+<text x="968.8" y="131" fill="#3fb950" textLength="124.8" lengthAdjust="spacing" text-anchor="end">[open source]</text>
+<text x="28" y="153" fill="#8a8a8a" textLength="144" lengthAdjust="spacing">[first release]</text>
+<text x="191.2" y="153" fill="#e8e8e8" textLength="76.8" lengthAdjust="spacing">hix-hie/</text>
+<text x="364" y="153" fill="#b4b4b4" textLength="240" lengthAdjust="spacing">the services that run HIX</text>
+<text x="28" y="175" fill="#8a8a8a" textLength="96" lengthAdjust="spacing">[released]</text>
+<text x="191.2" y="175" fill="#e8e8e8" textLength="86.4" lengthAdjust="spacing">nodecord/</text>
+<text x="364" y="175" fill="#b4b4b4" textLength="451.2" lengthAdjust="spacing">enterprise DI for Discord bots. built it anyway</text>
+<text x="968.8" y="175" fill="#3fb950" textLength="124.8" lengthAdjust="spacing" text-anchor="end">[open source]</text>
+<text x="28" y="197" fill="#8a8a8a" textLength="48" lengthAdjust="spacing">[wip]</text>
+<text x="191.2" y="197" fill="#e8e8e8" textLength="86.4" lengthAdjust="spacing">fidechat/</text>
+<text x="364" y="197" fill="#b4b4b4" textLength="345.6" lengthAdjust="spacing">the same chat app, built three times</text>
+<text x="968.8" y="197" fill="#3fb950" textLength="124.8" lengthAdjust="spacing" text-anchor="end">[open source]</text>
+<text x="28" y="219" fill="#8a8a8a" textLength="76.8" lengthAdjust="spacing">[paused]</text>
+<text x="191.2" y="219" fill="#e8e8e8" textLength="96" lengthAdjust="spacing">mind-body/</text>
+<text x="364" y="219" fill="#b4b4b4" textLength="422.4" lengthAdjust="spacing">a gym app whose AI coach reads your routines</text>
+<text x="968.8" y="219" fill="#3fb950" textLength="124.8" lengthAdjust="spacing" text-anchor="end">[open source]</text>
+<text x="28" y="263" fill="#f5d800" textLength="57.6" lengthAdjust="spacing">juanes</text>
+<text x="85.6" y="263" fill="#e8e8e8" textLength="9.6" lengthAdjust="spacing">@</text>
+<text x="95.2" y="263" fill="#f5d800" textLength="57.6" lengthAdjust="spacing">meddyg</text>
+<text x="162.4" y="263" fill="#8a8a8a" textLength="28.8" lengthAdjust="spacing">~ $</text>
+<text x="200.8" y="263" fill="#f5d800" textLength="9.6" lengthAdjust="spacing" class="blink">_</text>
+</svg>
