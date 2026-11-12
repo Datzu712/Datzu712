@@ -135,8 +135,9 @@ async function fetchStats() {
   // The last push anywhere public, including other people's repos (HIX lives
   // under meddyg). The events feed only goes back a few weeks, so fall back
   // to the most recently pushed repo of his own.
+  // This repo never counts: the workflow pushes to it every day.
   let last = repos
-    .filter((r) => r.pushedAt)
+    .filter((r) => r.pushedAt && r.name !== LOGIN)
     .map((r) => ({ at: r.pushedAt, repo: r.name }))
     .sort((a, b) => b.at.localeCompare(a.at))[0];
   try {
