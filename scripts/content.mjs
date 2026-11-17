@@ -53,10 +53,10 @@ export const contact = [
 /** `line` has 48 characters at most, or it runs into [open source] */
 export const projects = [
     { status: "production", name: "ngdose", line: "strangling a 13-year-old CakePHP app, live" },
-    { status: "production", name: "radiation-group", line: "a certificate portal, and an AI that can't write" },
+    { status: "production", name: "radiation-group", line: "a certificate portal with an AI assistant" },
     { status: "public draft", name: "hix", line: "a FHIR R5 spec for exchanging clinical documents", open: true },
     { status: "first release", name: "hix-hie", line: "the services that run HIX" },
-    { status: "released", name: "nodecord", line: "enterprise DI for Discord bots. built it anyway", open: true },
-    { status: "wip", name: "fidechat", line: "the same chat app, built three times", open: true },
-    { status: "paused", name: "mind-body", line: "a gym app whose AI coach reads your routines", open: true },
+    { status: "released", name: "nodecord", line: "enterprise DI for Discord bots. cuz why not?", open: true },
+    { status: "wip", name: "fidechat", line: "discord clone rebuilt three times", open: true },
+    { status: "paused", name: "mind-body", line: "a gym app with an integrated AI assistant", open: true },
 ];
